@@ -1,0 +1,51 @@
+types of ec2 instances?
+
+General Purpose--The computation, memory, and networking resources in general-purpose instances are balanced.
+Compute Optimize--Compute-optimized instances are appropriate for applications that require a lot of computation and help from high-performance CPUs
+Storage Optimize--The applications which high processing of databases can utilize storage-optimized instances
+Memory Optimize--Memory-optimized instances are geared for workloads that need huge datasets to be processed in memory.Memory here defines RAM which allows us to do multiple tasks at sametime
+Accelarater Computing--Coprocessors are used in accelerated computing instances to execute specific operations more effectively than software running on CPUs
+
+pricing model in ec 2 instances?
+
+On-Demanded Instances
+Reserved Instances
+Spot Instances
+Dedicated Host
+
+s3 storage classes types and why we choose?
+
+Amazon S3 Standard
+Amazon S3 Intelligent-Tiering
+Amazon S3 Standard-Infrequent Access
+Amazon S3 One Zone-Infrequent Access
+Amazon S3 Glacier Instant Retrieval
+Amazon S3 Glacier Flexible Retrieval
+Amazon S3 Glacier Deep Archive
+
+life cycle of s3?
+
+An S3 Lifecycle Management in simple terms when in an S3 bucket some data is stored for a longer time in standard storage even when not needed. The need to shift this old data to cheaper storage or delete it after a span of time gives rise to life cycle management.
+
+Transition actions: Moving objects from one storage class to another storage class. Each storage class has a different cost associated with it.
+Expiration actions: When objects expire after a span of time (say 30 days,60 days, etc). Amazon S3 deletes expired objects on your behalf.
+
+Scope of S3
+
+Amazon S3 (Simple Storage Service) provides object storage, which is built for storing and recovering any amount of information or data from anywhere over the internet. It provides this storage through a web services interface. While designed for developers for easier web-scale computing, it provides 99.999999999 percent durability and 99.99 percent availability of objects. It can also store computer files up to 5 terabytes in size.
+
+
+nlb & alb
+how to check the os in linux machine
+how to install httpd package manager using terraform code
+how to mount ebs volume to instance permanently
+diff bt ansible inventory and host file
+s3 version
+how to copy the object from one region to anothr in s3
+commands 
+pipeline stages in your project
+purpose of using ansible in your org
+software installing using ansible
+what is terraform lock file
+cmd to check the disk space in linux
+resizing the ebs volume without downtime 
